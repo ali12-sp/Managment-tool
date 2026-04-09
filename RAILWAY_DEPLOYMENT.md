@@ -1,6 +1,6 @@
-# Railway Deployment Guide for TaskFlow
+# Railway Deployment Guide for OpsBoard
 
-This guide will help you deploy your full-stack TaskFlow project to Railway.
+This guide will help you deploy your full-stack opsboard project to Railway.
 
 ## 📋 Prerequisites
 

@@ -1,4 +1,4 @@
-# 🚀 TaskFlow - Collaborative Task Management Tool
+# 🚀 OpsBoard - Collaborative Task Management Tool
 
 A modern, full-stack collaborative task management application inspired by Trello and Asana. Built with a focus on team collaboration, real-time updates, and ease of use.
 
@@ -55,8 +55,8 @@ Before you begin, ensure you have installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ali12-sp/taskflow.git
-cd taskflow
+git clone https://github.com/ali12-sp/Managment-tool.git
+cd opsboard
 ```
 
 ### 2. Install Dependencies
@@ -73,7 +73,7 @@ cp apps/api/.env.example apps/api/.env
 
 Edit `apps/api/.env`:
 ```
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/taskflow
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/opsboard
 PORT=4000
 JWT_ACCESS_SECRET=your-super-secret-key-at-least-30-chars
 JWT_REFRESH_SECRET=your-refresh-secret-at-least-30-chars
@@ -103,7 +103,7 @@ docker-compose up -d
 #### Option B: Local PostgreSQL
 ```bash
 # Create database
-createdb taskflow
+createdb opsboard
 
 # Run migrations
 cd apps/api
@@ -226,7 +226,7 @@ pnpm test
 ## 🐛 Troubleshooting
 
 ### Database connection fails
-- Ensure PostgreSQL is running: `psql -U postgres -d taskflow`
+- Ensure PostgreSQL is running: `psql -U postgres -d opsboard`
 - Check `DATABASE_URL` in `.env` file
 - Verify migrations: `pnpm prisma migrate status`
 
@@ -263,7 +263,7 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 ## 📞 Support
 
 For issues and questions:
-1. Check existing issues: [GitHub Issues](https://github.com/ali12-sp/taskflow/issues)
+1. Check existing issues: [GitHub Issues](https://github.com/ali12-sp/Managment-tool/issues)
 2. Create a new issue with detailed description
 3. Reference error logs and environment details
 
@@ -282,6 +282,6 @@ For issues and questions:
 
 ---
 
-⭐ **If you like TaskFlow, please star the repository!**
+⭐ **If you like OpsBoard, please star the repository!**
 
 Made with ❤️ by Ali - Deployed with Railway 🚀

@@ -3,16 +3,16 @@ version: "29.2.0,"
 services:
   postgres:
     image: postgres:16
-    container_name: taskflow_postgres
+    container_name: opsboard_postgres
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: taskflow
+      POSTGRES_DB: opsboard
     ports:
       - "5432:5432"
     volumes:
-      - taskflow_pg_data:/var/lib/postgresql/data
+      - opsboard_pg_data:/var/lib/postgresql/data
 
 volumes:
-  taskflow_pg_data:
+  opsboard_pg_data:

@@ -1,0 +1,18 @@
+version: "29.2.0,"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: opsboard_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: opsboard
+    ports:
+      - "5432:5432"
+    volumes:
+      - opsboard_pg_data:/var/lib/postgresql/data
+
+volumes:
+  opsboard_pg_data:

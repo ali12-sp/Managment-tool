@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: opsboard-db
+    environment:
+      POSTGRES_USER: opsboard
+      POSTGRES_PASSWORD: opsboard
+      POSTGRES_DB: opsboard
+    ports:
+      - "5432:5432"
+    volumes:
+      - opsboard_pg:/var/lib/postgresql/data
+
+volumes:
+  opsboard_pg:

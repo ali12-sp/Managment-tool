@@ -1,15 +1,15 @@
 services:
   db:
     image: postgres:16
-    container_name: opsboard-db
+    container_name: taskflow-db
     environment:
-      POSTGRES_USER: opsboard
-      POSTGRES_PASSWORD: opsboard
-      POSTGRES_DB: opsboard
+      POSTGRES_USER: taskflow
+      POSTGRES_PASSWORD: taskflow
+      POSTGRES_DB: taskflow
     ports:
       - "5432:5432"
     volumes:
-      - opsboard_pg:/var/lib/postgresql/data
+      - taskflow_pg:/var/lib/postgresql/data
 
 volumes:
-  opsboard_pg:
+  taskflow_pg:

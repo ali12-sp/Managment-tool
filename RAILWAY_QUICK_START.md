@@ -1,9 +1,9 @@
-# 🚀 Quick Railway Deployment Checklist
+# 🚀 Quick Railway Deployment Checklist for TaskFlow
 
 ## Pre-Deployment (Do Once)
 
 - [ ] Have a Railway account at [railway.app](https://railway.app)
-- [ ] Your GitHub repo is pushed: `ali12-sp/Managment-tool`
+- [ ] Your GitHub repo is pushed: `ali12-sp/taskflow`
 - [ ] Verify code is on `master` branch: `git status`
 
 ## Deployment Steps (Copy-Paste Ready)
@@ -11,7 +11,7 @@
 ### 1️⃣ Create Railway Project
 ```
 1. Go to railway.app → New Project → GitHub Repo
-2. Select: ali12-sp/Managment-tool → Create Project
+2. Select: ali12-sp/taskflow → Create Project
 ```
 
 ### 2️⃣ Add PostgreSQL

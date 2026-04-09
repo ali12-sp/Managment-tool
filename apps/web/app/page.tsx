@@ -20,7 +20,7 @@ export default function HomePage() {
 
               <div className="space-y-4">
                 <h1 className="max-w-3xl text-4xl font-black tracking-tight text-slate-950 md:text-6xl">
-                  OpsBoard brings Trello boards and Asana clarity into one workspace.
+                  TaskFlow brings Trello boards and Asana clarity into one workspace.
                 </h1>
                 <p className="max-w-2xl text-lg leading-8 text-slate-600">
                   Build collaborative group projects, assign work, comment on tasks, and show live team activity in a polished full-stack app.
